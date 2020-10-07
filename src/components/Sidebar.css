@@ -1,0 +1,10 @@
+.sidebar{
+    /*flex: 0.33 1; */
+    padding: 25px 10px;
+    display: inline-block;
+    width: 200px;
+    position: fixed;
+    top: 80px;
+    left: 0;
+
+}

@@ -1,0 +1,30 @@
+.story{
+    position: relative;
+     /*background-image: url("https://images.unsplash.com/photo-1601460075148-ab400fe05e36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"); */
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 200px;
+    box-shadow: 0 5px 17px -7px rgba(0,0,0,.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform .1s ease-in;
+    cursor: pointer;  
+    transition: transform 0.1s ease-in;
+}
+
+
+.story:hover{
+    transform: scale(1.07);
+}
+
+
+.story .MuiAvatar-root{
+    margin: 10px;
+    border: 5px solid #2e81f4;
+    width: 50px;
+    height: 50px;
+}
+
+

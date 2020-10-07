@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #f1f2f5;
+}
+
+
+.app__body{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 85px;
+    min-height: 100vh;
+}

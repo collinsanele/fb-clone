@@ -1,0 +1,179 @@
+.post{
+    width: 100%;
+    /*min-height: 640px; */
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.post__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.post__header__left{
+    display: flex;
+    align-items: center;
+}
+
+
+.post__header__left__name{
+    margin-left: 8px;
+}
+
+
+
+.post__header__left__name__small{
+    display: flex;
+    align-items: center;
+}
+
+
+.MuiSvgIcon-root.dot{
+    font-size: 4px;
+    margin: 0 3px;
+    color: grey;
+}
+
+
+.MuiSvgIcon-root.world-icon, .post__header__left__name__small{
+    font-size: 16px;
+    color: grey;
+}
+
+
+.MuiSvgIcon-root.dots{
+    color: grey;
+    cursor: pointer;
+    width: 1.3em;
+    height: 1.3em;
+}
+
+
+.MuiSvgIcon-root.dots:hover{
+    background-color: #eff2f5;
+    border-radius: 50%;
+}
+    
+
+
+
+.post__text{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #050505;
+}
+
+
+
+.post__image > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+.post__info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+.post__info__first, .post__info__second, .post__info__third{
+    display: flex;
+    cursor: pointer;
+    padding: 4px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.post__info__first:hover, .post__info__second:hover, .post__info__third:hover{
+    background-color: #dadde1;
+    border-radius: 3px;
+}
+
+
+
+
+.post__info .MuiSvgIcon-root{
+    color: #65676b;
+    margin-right: 4px;
+}
+
+
+.post__info p{
+    color: #65676b;
+}
+
+
+.post__comment{
+    display: flex;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+
+.post__comment__inner{
+    display: flex;
+    align-items: center;
+}
+
+
+.post__comment__input{
+    flex: 1 1;
+    border-radius: 999px;
+    background-color: #eff2f5;
+    margin-left: 4px;
+    
+}
+
+.post__comment__input input{
+    width: 483px;
+    display: inline-block;
+    border-radius: 999px;
+    padding: 8px;
+    padding-top: 10px;
+    padding-left: 9px;
+    border: none;
+    outline-width: 0;
+    background: transparent;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    padding-top: 12px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 8px -9px rgba(0,0,0,.75);
+    background-color: #fff;
+}
+
+
+.navbar__left, .navbar__right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__left{
+    justify-content: space-evenly;
+}
+
+
+.navbar__center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.navbar__option.active{
+    border-bottom: 4px solid #2e81f4;
+}
+
+
+
+.navbar__left  > img{
+    height: 40px;
+}
+
+
+.navbar__input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 13px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+
+.navbar__input > input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+
+.navbar__option{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+
+.navbar__option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px; 
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: none;
+    /*border-bottom: 4px solid #2e81f4; */
+}
+
+.navbar__option:hover .MuiSvgIcon-root{
+    color: #2e81f4 !important;
+}
+
+
+.navbar__option.active:hover{
+    border-bottom: 4px solid #2e81f4;
+}
+
+
+.navbar__option > .MuiSvgIcon-root, .navbar__right > .MuiSvgIcon-root{
+    color: grey;
+}
+
+
+.navbar__option > .MuiSvgIcon-root{
+    font-size: 2.1875rem;
+}
+
+.navbar__right > h4{
+    margin-left: 10px;
+}
+
+
+.navbar__right .avatar{
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
